@@ -1,1 +1,134 @@
-# listnew
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Displaying lists
+        you can display a list using either a <ul>....</ul>
+        unordered lists
+        or <ol>...</ol> tag for ordered lists-->
+    <h1 style="color:aqua; text-align:center;font-size:30px;">HTML lists</h1>
+    <div style="background-color:aliceblue;color:darkkhaki; border:2px dashed black">
+        <h4 style="font-size:22px; color:chartreuse"><i>Unordered lists</i></h4>
+
+        <ul>
+            <li style="color:blue;font-size:18px;"><u>Tea</u></li>
+            <li style="color:red;font-size:17.5px;"><s>Milk</s></li>
+            <li style="color:green;font-size:17px;">Lemonade</li>
+            <li style="color:orange;border:1px solid aqua; font-size:16.5px;">Hot Chocolate</li>
+        </ul>
+    </div>
+
+    <div style="background-color:antiquewhite">
+        <h4 style="font-size:22px;color:burlywood;">Ordered lists</h4>
+        <ol start="10" reversed>
+            <li>
+                <b>Tea</b>
+                <a href="https://www.medicalnewstoday.com/articles/269538" target="_blank">
+                    <img src="Tea.jpg" width="130" height="130" />
+                </a>
+            </li>
+            <li>
+                <i>Milk</i><a href="https://en.wikipedia.org/wiki/Milk" target="_blank">
+                    <img src="Milk.jpg" width="130" height="130" />
+                </a>
+            </li>
+            <li>
+                Lemonade<a href="https://en.wikipedia.org/wiki/Lemonade" target="_blank">
+                    <img src="Lemonade.jpg" width="130" height="130" />
+                </a>
+            </li>
+            <li>
+                Hot Chocolate<a href="https://en.wikipedia.org/wiki/Hot_chocolate" target="_blank">
+                    <img src="HotChoc.jpg" width="130" height="130" />
+                </a>
+            </li>
+        </ol>
+    </div>
+
+    <div style="background-color:darkcyan;border-top:solid;border-top-color:black">
+        <h4 style="font-style:oblique; color:coral;font-size:22px;"><u>Nested lists</u></h4>
+
+        <ol>
+            <li style="color:aquamarine;border:1.5px solid green;">
+                <div style="background-color:azure;">
+                    Drinks:
+                    <ul>
+                        <li style="list-style-type:square;color:indianred;">Tea</li>
+                        <li style="list-style-type:disc; color:mediumvioletred;">Milk</li>
+                        <li style="list-style-type:georgian; color:orangered;">Soda</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li style="background-color:antiquewhite;color:blueviolet;border: 2px groove blue">
+                Desserts:
+                <ul>
+                    <li style="list-style:armenian;color:white;">Apple pie</li>
+                    <li style="list-style-type:lower-greek;color:gold;">Ice Cream</li>
+                    <li style="list-style:initial;color:chartreuse;">Pecan pie</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div style="background-color:bisque;color:aqua;">
+        <h4 style="color:blue; font-size:22px;">Nested lists example 2</h4>
+
+        <ol>
+            <li>
+                <div style="background-color:white;color:blue;border:dashed red">
+                    Drinks:
+                    <ul>
+                        <li style="list-style:square;color:aqua;font-size:20px">
+                            Tea
+                            <ul>
+                                <li style="list-style:circle; color:black;font-size:16px;">Green</li>
+                                <li style="list-style:circle; color:black;font-size:16px;">
+                                    <a href="https://en.wikipedia.org/wiki/Black_tea" target="_blank">Black</a>
+                                </li>
+                                <li style="list-style:circle; color:black;font-size:16px;">
+                                    <a href="https://www.healthline.com/nutrition/oolong-tea-benefits" target="_blank">Ulong</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="list-style:square;color:aqua;font-size:20px">
+                            Milk
+                            <video width="150" height="150" autoplay>
+                                <source src="Milk.mp4" type="video/mp4">
+                            </video>
+                        </li>
+                        <li>Soda</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div style="background-color:gold;color:black;border:dashed red">
+                    Desserts:
+                    <ul>
+                        <li style="list-style:circle; color:black;font-size:16px">Apple pie<iframe src="https://www.tasteofhome.com/recipes/apple-pie/" width="350" height="250"></iframe></li>
+                        <li style="list-style:circle; color:black;font-size:16px">
+                            Ice Cream
+                            <video width="150" height="150">
+                                <source src="Icecream.mp4" type="video/mp4">
+                            </video>
+                        </li>
+                        <li style="list-style:circle; color:black;font-size:16px">
+                            Pecan pie
+                            <iframe src="https://www.foodnetwork.com/recipes/ree-drummond/pecan-pie-recipe-2042433"
+                                    width="350" height="250"></iframe>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+    </div>
+    <address style="color:darkslategray">
+        Written by <a href="mailto:mlscrieciu@student.rtc.edu">Mihai Scrieciu</a>.<br />
+        Working from home because of COVID-19<br />
+        King Country, Washington, USA
+    </address>
+</body>
+</html>
